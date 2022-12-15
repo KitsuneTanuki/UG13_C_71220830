@@ -1,0 +1,128 @@
+import turtle
+a = turtle.Screen()
+t = turtle.Turtle()
+
+
+#huruf D
+t.penup()
+t.goto(-150,0)
+t.pensize(10)
+t.pencolor("cyan")
+a.bgcolor("dark blue")
+t.pendown()
+t.circle(45,180)
+t.left(90)
+t.forward(90)
+t.penup()
+t.speed(0)
+
+#huruf K
+t.goto(70,0)
+t.right(180)
+t.pendown()
+t.forward(90)
+t.right(180)
+t.forward(45)
+t.left(45)
+t.forward(60)
+t.left(180)
+t.forward(60)
+t.right(90)
+t.forward(60)
+t.penup()
+
+#angka 8
+t.goto(0,175)
+t.left(45)
+t.pendown()
+t.circle(22.5)
+t.left(180)
+t.circle(-22.5,90)
+t.circle(22.5)
+t.penup()
+
+#angka 3
+t.goto(-25,45)
+t.left(180)
+t.pendown()
+t.circle(22.5,270)
+t.penup()
+t.goto(-25,45)
+t.pendown()
+t.left(90)
+t.circle(-22.5,270)
+t.penup()
+
+#angka 0
+t.goto(0,-50)
+t.pendown()
+t.circle(22.5,180)
+t.forward(35)
+t.circle(22.5,180)
+t.forward(35)
+t.left(135)
+t.forward(53)
+t.penup()
+
+#Kreasi kotak
+t.pencolor("green")
+t.goto(-200,230)
+t.pendown()
+t.left(45)
+for i in range (4):
+    t.forward(375)
+    t.left(90)
+t.penup()
+
+#kreasi tulisan 1
+t.pencolor("white")
+t.goto(-250,-210)
+t.pendown()
+t.forward(50)
+t.left(180)
+t.forward(50)
+t.left(90)
+t.forward(30)
+t.left(90)
+t.forward(50)
+t.left(180)
+t.forward(5)
+t.right(90)
+t.forward(30)
+t.penup()
+t.goto(-250,-230)
+t.pendown()
+t.left(180)
+t.forward(30)
+t.left(180)
+t.penup()
+
+#kreasi tulisan 2
+t.goto(-230,-230)
+t.pendown()
+t.forward(50) 
+t.left(180)
+t.forward(25) 
+t.right(90)
+t.forward(20)
+t.left(180)
+t.forward(50)
+t.left(180)
+t.forward(10)
+t.left(90)
+t.forward(9)
+t.backward(18)
+t.forward(9)
+t.right(90)
+t.forward(30)
+t.right(180)
+t.circle(25,90)
+t.right(180)
+t.circle(-25,90)
+t.right(180)
+t.circle(-25,90)
+
+
+
+
+
